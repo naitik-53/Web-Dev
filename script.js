@@ -1,28 +1,15 @@
-// 1. input field ko pakad lo
-const searchInput = document.getElementById("searchInput");
+//this keyword aik special keyword ha kyuki jaise ki baki sare keyyword ki value ya nature badal jata ha is baat se ki aap use khn use kr rahe ho
 
-// 2. saare list items pakad lo
-const listItems = document.querySelectorAll("#userList li");
+//global scope 
+console.log(this);
 
-// 3. input par event lagao
-searchInput.addEventListener("input", function () {
+function t(){
+    console.log(this);
+}
 
-  // 4. user ne jo type kiya usse lo
-  const searchText = searchInput.value.toLowerCase();
+t();
 
-  // 5. har list item ko check karo
-  listItems.forEach(function (item) {
-
-    // 6. list item ka text lo
-    const itemText = item.textContent.toLowerCase();
-
-    // 7. compare karo
-    if (itemText.includes(searchText)) {
-      item.style.display = "block";
-    } else {
-      item.style.display = "none";
-    }
-
-  });
-
-});
+// event handler
+document.querySelector("h1").addEventListener("click", function(){
+    console.log((this.style.color = "red"));
+})

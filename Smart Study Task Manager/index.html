@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Study Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+
+    <h2 id="statusHeading">📚 Study Task Manager</h2>
+
+    <!-- FORM -->
+    <form id="taskForm">
+
+      <input 
+        type="text" 
+        id="taskInput" 
+        placeholder="Enter task name"
+      >
+
+      <input 
+        type="number" 
+        id="timeInput" 
+        placeholder="Time (minutes)"
+      >
+
+      <button type="submit">Add Task</button>
+
+      <p id="errorMsg"></p>
+
+    </form>
+
+    <!-- TASK LIST -->
+    <ul id="taskList"></ul>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
