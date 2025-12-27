@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Personal Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <h2>📊 Smart Personal Manager</h2>
+
+    <!-- FINANCE -->
+    <section>
+      <h3>💰 Finance</h3>
+
+      <form id="financeForm">
+        <input type="text" id="titleInput" placeholder="Title">
+        <input type="number" id="amountInput" placeholder="Amount">
+        <select id="typeInput">
+          <option value="">Type</option>
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <button>Add</button>
+        <p id="financeError"></p>
+      </form>
+
+      <h4>Total Balance: ₹ <span id="balance">0</span></h4>
+      <ul id="financeList"></ul>
+    </section>
+
+    <!-- HABITS -->
+    <section>
+      <h3>⏱️ Habits</h3>
+
+      <form id="habitForm">
+        <input type="text" id="habitInput" placeholder="Habit name">
+        <input type="number" id="habitTime" placeholder="Minutes">
+        <button>Add Habit</button>
+        <p id="habitError"></p>
+      </form>
+
+      <ul id="habitList"></ul>
+    </section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
