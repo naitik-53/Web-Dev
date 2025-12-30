@@ -6,10 +6,9 @@ This project is designed to help students plan study tasks efficiently while rei
 
 🚀 Live Demo
 
-👉 Live App: (Paste your Vercel link here)
-Example:
+👉 Live App: (https://web-dev-ashen-seven.vercel.app/)
 
-https://web-dev-ashen-seven.vercel.app/
+
 
 ✨ Features
 
