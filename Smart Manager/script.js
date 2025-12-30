@@ -109,3 +109,6 @@ function resetForm() {
   amountInput.value = "";
   typeInput.value = "";
 }
+
+
+//Done 
