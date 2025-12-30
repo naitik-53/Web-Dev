@@ -7,7 +7,6 @@ This project focuses on strong JavaScript fundamentals, clean DOM manipulation, 
 🚀 Live Demo
 
 👉 (https://smart-manager-eight.vercel.app/)
-Example:
 
 
 ✨ Features
