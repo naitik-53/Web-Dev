@@ -9,7 +9,7 @@ This project focuses on strong JavaScript fundamentals, clean DOM manipulation, 
 👉 (Add your deployed Vercel link here)
 Example:
 
-https://smart-personal-manager.vercel.app
+https://smart-manager-eight.vercel.app/
 
 ✨ Features
 💰 Finance Manager
