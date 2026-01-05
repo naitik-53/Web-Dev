@@ -1,17 +1,10 @@
-//Revising the functions 
-function greet(){
-    console.log("Happy New Year Guys");
-}; 
+let h3 = document.querySelector("h3");
+document.addEventListener("keydown", function(dets){
+    if(dets.key === " "){
+        h3.textContent = "backspace"
+    } else{
+        h3.textContent = dets.key;
+    };
+    
 
-greet();
-
-function sum(a, b){
-    console.log(a+b);
-}
-
-sum(10,12);
-
-//fat arrow functions
-let fnc = () => {
-    console.log("This Is a fat arrow function")
-};
+});
